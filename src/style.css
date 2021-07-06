@@ -1,20 +1,33 @@
-*
-{
+* {
     margin: 0;
     padding: 0;
 }
 
 html,
-body
-{
-    height: 100vh;
-    font-family: 'Poppins';
+body {
+    font-family: sans-serif;
 }
 
-.webgl
-{
-    position: fixed;
+body {
+    overflow: hidden;
+}
+
+h1 {
+    font-size: 8rem;
+    text-transform: uppercase;
+    color: white;
+}
+
+.webgl {
     top: 0;
     left: 0;
     outline: none;
+}
+
+.container {
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+    display: grid;
+    place-items: center;
 }
